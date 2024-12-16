@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fafcfc;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+textarea {
+  outline: none;
+}
+
+.scroll {
+  scrollbar-width: none;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+ 
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+.scroll-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.schroll::-webkit-scrollbar {
+  display: none;
+}
